@@ -32,9 +32,9 @@
             <ul>
                 <li>Syntax coloring</li>                
                 <li>Run from editor</li>
-                <li>Run single Scenario</li>
-                <li>Edit Run Configurations</li>
-                <li>Structure view</li>
+                <li>Run single Scenario / Example</li>
+                <li>Run / Launch Configurations</li>
+                <li>Structure / Outline view</li>
                 <li>Code formatting</li>
                 <li>In-IDE test results</li>
             </ul>
@@ -46,12 +46,11 @@
                 <li>Code folding</li>
                 <li>Jump to references</li>
                 <li>JSON re-formatting</li>
-                <li>Run single Example</li>
                 <li>Run folder from explorer</li>
                 <li>Run Karate Labs add-ons (e.g. <a href="https://github.com/karatelabs/karate-addons/blob/main/karate-kafka/README.md">Kafka</a>)</li>
                 <li>Debug Karate test</li>
-                <li>Debug Java and Karate in same session</li>
-                <li>Start debug session from Java</li>
+                <li>Debug Java &amp; Karate in same session</li>
+                <li>Java debug session stops at Karate breakpoints</li>
                 <li>cURL import *</li>
                 <li>OpenAPI support *</li>
             </ul><i>&nbsp;&nbsp;&nbsp;&nbsp;[*] coming soon</i>
