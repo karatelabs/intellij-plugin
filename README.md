@@ -31,7 +31,7 @@
         <td>            
             <ul>
                 <li>Syntax coloring</li>                
-                <li>Run from editor</li>
+                <li>Run Feature from editor</li>
                 <li>Run single Scenario / Example</li>
                 <li>Run / Launch Configurations</li>
                 <li>Structure / Outline view</li>
@@ -46,7 +46,7 @@
                 <li>Code folding</li>
                 <li>Jump to references</li>
                 <li>JSON re-formatting</li>
-                <li>Run folder from explorer</li>
+                <li>Run all tests in folder</li>
                 <li>Run Karate Labs add-ons (e.g. <a href="https://github.com/karatelabs/karate-addons/blob/main/karate-kafka/README.md">Kafka</a>)</li>
                 <li>Debug Karate test</li>
                 <li>Debug Java &amp; Karate in same session</li>
