@@ -1,12 +1,11 @@
 <table>
     <tr>
-        <td><br/><img src="resources/karate-logo.svg" style="height:45px"/></td>
-        <td><h1>IntelliJ Plugin</h1></td>
-    </tr>
-</table>
-
-<table>
-    <tr>
+        <td>
+            <br/><a href="https://karatelabs.io"><img src="resources/karate-logo.svg" style="height:45px"/></a>
+        </td>
+        <td>
+            <h2>Karate IntelliJ Plugin</h2>           
+        </td>
         <th>
             <h3><a href="https://www.karatelabs.io/pricing">:heavy_dollar_sign: <br/>&nbsp;&nbsp;Pricing&nbsp;&nbsp;</a></h3>
         </th>         
@@ -18,11 +17,9 @@
         </th>
         <th>
             <h3><a href="https://github.com/karatelabs/karate-intellij-plugin/issues">:octocat: <br/>&nbsp;&nbsp;&nbsp;Issues&nbsp;&nbsp;&nbsp;</a></h3>
-        </th>
+        </th>        
     </tr>
 </table>
-
-# Features
 
 <table>
     <tr>
@@ -31,7 +28,7 @@
         <th>Enterprise</th>
     </tr>    
     <tr>
-        <td>
+        <td>            
             <ul>
                 <li>Syntax coloring</li>                
                 <li>Run from editor</li>
@@ -43,7 +40,7 @@
             </ul>
         </td>
         <td>
-            <i>(includes everything in PLUS)</i>
+            <i>&nbsp;&nbsp;&nbsp;&nbsp;(includes all in PLUS)</i>
             <ul>
                 <li>Auto complete</li>                
                 <li>Code folding</li>
@@ -51,14 +48,15 @@
                 <li>JSON re-formatting</li>
                 <li>Run single Example</li>
                 <li>Run folder from explorer</li>
-                <li>Run Karate Labs add-ons (e.g. Kafka)</li>
+                <li>Run Karate Labs add-ons (e.g. <a href="https://github.com/karatelabs/karate-addons/blob/main/karate-kafka/README.md">Kafka</a>)</li>
                 <li>Debug Karate test</li>
                 <li>Debug Java and Karate in same session</li>
                 <li>Start debug session from Java</li>
-            </ul>        
+                <li>cURL import *</li>
+                <li>OpenAPI support *</li>
+            </ul><i>&nbsp;&nbsp;&nbsp;&nbsp;[*] coming soon</i>
         </td>
         <td>
-            <i>(includes everything in PRO)</i>
             <ul>
                 <li>Priority support</li>
                 <li>SSO / SAML support</li>
