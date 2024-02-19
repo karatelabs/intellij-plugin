@@ -66,6 +66,9 @@
     </tr>
 </table>
 
+# Highlights
+This plugin works fully-featured on [IntelliJ Community Edition](https://www.jetbrains.com/products/compare/?product=idea&product=idea-ce). JS support is built-in and does not require you to be running [IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/features/).
+
 # License Activation
 License activation and status is unified within the IntelliJ settings UI. Go to `Settings -> Languages & Frameworks -> Karate` and you should see something like this.
 
@@ -74,6 +77,8 @@ License activation and status is unified within the IntelliJ settings UI. Go to 
 Click the `Sign In` link and you will be taken through the usual flow linked to your existing subscription details.
 
 Once you have authenticated successfully, copy the session ID from the browser and paste it into the input-box now showing in the IntelliJ settings view. Click `Apply` to complete the sign-in.
+
+Once signed-in you can work offline. You can always open this settings page to see how many days are left in your session.
 
 If you need an offline license because of strict security or other restrictions in your environment, please [contact us](https://www.karatelabs.io/contact-us).
 
@@ -84,7 +89,7 @@ You can also run a single `Scenario` by right-clicking on it or using the "gutte
 
 <img src="resources/run-scenario.jpg" height="300px"/>
 
-You can even run a single "example" in a `Scenario Outline` by clicking on one of the data-rows within an `Examples` table.
+You can even run a single "example" in a `Scenario Outline` by right-clicking on one of the data-rows within an `Examples` table.
 
 <img src="resources/run-example.jpg" height="250px"/>
 
