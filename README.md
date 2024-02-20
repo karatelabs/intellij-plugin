@@ -32,23 +32,23 @@
             <ul>
                 <li>Syntax coloring</li>                
                 <li>Run Feature from editor</li>
-                <li>Run single Scenario / Example</li>
-                <li>Run / Launch Configurations</li>
-                <li>Structure / Outline view</li>
-                <li>Code formatting</li>
-                <li>In-IDE test results</li>
+                <li>Run single Scenario / Example <a href="#run-from-editor">:arrow_down:</a></li>
+                <li>Run / Launch Configurations <a href="#run-configurations">:arrow_down:</a></li>
+                <li>Structure / Outline view <a href="#structure-view">:arrow_down:</a></li>
+                <li>Code formatting <a href="#code-formatting">:arrow_down:</a></li>
+                <li>In-IDE test results <a href="#test-results">:arrow_down:</a></li>
             </ul>
         </td>
         <td>
             <i>&nbsp;&nbsp;&nbsp;&nbsp;(includes all in PLUS)</i>
             <ul>
-                <li>Auto complete</li>                
-                <li>Code folding</li>
-                <li>Jump to references</li>
+                <li>Auto complete <a href="#auto-complete">:arrow_down:</a></li>                
+                <li>Code folding <a href="#code-folding">:arrow_down:</a></li>
+                <li>Jump to references <a href="#references">:arrow_down:</a></li>
                 <li>JSON re-formatting</li>
-                <li>Run all tests in folder</li>
+                <li>Run all tests in folder <a href="#run-folder">:arrow_down:</a></li>
                 <li>Run Karate Labs add-ons (e.g. <a href="https://github.com/karatelabs/karate-addons/blob/main/karate-kafka/README.md">Kafka</a>)</li>
-                <li>Debug Karate test</li>
+                <li>Debug Karate test <a href="#debug">:arrow_down:</a></li>
                 <li>Debug Java &amp; Karate in same session</li>
                 <li>Java debug session stops at Karate breakpoints</li>
                 <li>cURL import *</li>
@@ -66,7 +66,6 @@
     </tr>
 </table>
 
-# Highlights
 This plugin works fully-featured on [IntelliJ Community Edition](https://www.jetbrains.com/products/compare/?product=idea&product=idea-ce). JS support is built-in and does not require you to be running [IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/features/).
 
 # License Activation
