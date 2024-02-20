@@ -32,23 +32,23 @@
             <ul>
                 <li>Syntax coloring</li>                
                 <li>Run Feature from editor</li>
-                <li>Run single Scenario / Example <a href="#run-from-editor">:link:</a></li>
-                <li>Run / Launch Configurations <a href="#run-configurations">:link:</a></li>
-                <li>Structure / Outline view <a href="#structure-view">:link:</a></li>
-                <li>Code formatting <a href="#code-formatting">:link:</a></li>
-                <li>In-IDE test results <a href="#test-results">:link:</a></li>
+                <li><a href="#run-from-editor">Run single Scenario / Example</a></li>
+                <li><a href="#run-configurations">Run / Launch Configurations</a></li>
+                <li><a href="#structure-view">Structure / Outline view</a></li>
+                <li><a href="#code-formatting">Code formatting</a></li>
+                <li><a href="#test-results">In-IDE test results</a></li>
             </ul>
         </td>
         <td>
             <i>&nbsp;&nbsp;&nbsp;&nbsp;(includes all in PLUS)</i>
             <ul>
-                <li>Auto complete <a href="#auto-complete">:link:</a></li>                
-                <li>Code folding <a href="#code-folding">:link:</a></li>
-                <li>Jump to references <a href="#references">:link:</a></li>
+                <li><a href="#auto-complete">Auto complete</a></li>                
+                <li><a href="#code-folding">Code folding</a></li>
+                <li><a href="#references">Jump to references</a></li>
                 <li>JSON re-formatting</li>
-                <li>Run all tests in folder <a href="#run-folder">:link:</a></li>
+                <li><a href="#run-folder">Run all tests in folder</a></li>
                 <li>Run Karate Labs add-ons (e.g. <a href="https://github.com/karatelabs/karate-addons/blob/main/karate-kafka/README.md">Kafka</a>)</li>
-                <li>Debug Karate test <a href="#debug">:link:</a></li>
+                <li><a href="#debug">Debug Karate test</a></li>
                 <li>Debug Java &amp; Karate in same session</li>
                 <li>Java debug session stops at Karate breakpoints</li>
                 <li>cURL import *</li>
