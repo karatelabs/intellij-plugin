@@ -32,23 +32,23 @@
             <ul>
                 <li>Syntax coloring</li>                
                 <li>Run Feature from editor</li>
-                <li>Run single Scenario / Example <a href="#run-from-editor">:arrow_down:</a></li>
-                <li>Run / Launch Configurations <a href="#run-configurations">:arrow_down:</a></li>
-                <li>Structure / Outline view <a href="#structure-view">:arrow_down:</a></li>
-                <li>Code formatting <a href="#code-formatting">:arrow_down:</a></li>
-                <li>In-IDE test results <a href="#test-results">:arrow_down:</a></li>
+                <li>Run single Scenario / Example <a href="#run-from-editor">:small_red_triangle_down:</a></li>
+                <li>Run / Launch Configurations <a href="#run-configurations">:small_red_triangle_down:</a></li>
+                <li>Structure / Outline view <a href="#structure-view">:small_red_triangle_down:</a></li>
+                <li>Code formatting <a href="#code-formatting">:small_red_triangle_down:</a></li>
+                <li>In-IDE test results <a href="#test-results">:small_red_triangle_down:</a></li>
             </ul>
         </td>
         <td>
             <i>&nbsp;&nbsp;&nbsp;&nbsp;(includes all in PLUS)</i>
             <ul>
-                <li>Auto complete <a href="#auto-complete">:arrow_down:</a></li>                
-                <li>Code folding <a href="#code-folding">:arrow_down:</a></li>
-                <li>Jump to references <a href="#references">:arrow_down:</a></li>
+                <li>Auto complete <a href="#auto-complete">:small_red_triangle_down:</a></li>                
+                <li>Code folding <a href="#code-folding">:small_red_triangle_down:</a></li>
+                <li>Jump to references <a href="#references">:small_red_triangle_down:</a></li>
                 <li>JSON re-formatting</li>
-                <li>Run all tests in folder <a href="#run-folder">:arrow_down:</a></li>
+                <li>Run all tests in folder <a href="#run-folder">:small_red_triangle_down:</a></li>
                 <li>Run Karate Labs add-ons (e.g. <a href="https://github.com/karatelabs/karate-addons/blob/main/karate-kafka/README.md">Kafka</a>)</li>
-                <li>Debug Karate test <a href="#debug">:arrow_down:</a></li>
+                <li>Debug Karate test <a href="#debug">:small_red_triangle_down:</a></li>
                 <li>Debug Java &amp; Karate in same session</li>
                 <li>Java debug session stops at Karate breakpoints</li>
                 <li>cURL import *</li>
