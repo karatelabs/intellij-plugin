@@ -45,7 +45,7 @@
                 <li><a href="#auto-complete">Auto complete</a></li>                
                 <li><a href="#code-folding">Code folding</a></li>
                 <li><a href="#references">Jump to references</a></li>
-                <li>JSON re-formatting</li>
+                <li><a href="#json-re-formatting">JSON re-formatting</a></li>
                 <li><a href="#run-folder">Run all tests in folder</a></li>
                 <li>Run Karate Labs add-ons (e.g. <a href="https://github.com/karatelabs/karate-addons/blob/main/karate-kafka/README.md">Kafka</a>)</li>
                 <li><a href="#debug">Debug Karate test</a></li>
@@ -67,6 +67,8 @@
 </table>
 
 This plugin works fully-featured on [IntelliJ Community Edition](https://www.jetbrains.com/products/compare/?product=idea&product=idea-ce). JS support is built-in and does not require you to be running [IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/features/).
+
+> By using this plugin, you agree to the Karate Labs [EULA](https://karatelabs.io/eula) and [Privacy Policy](https://karatelabs.io/privacy-policy).
 
 # License Activation
 License activation and status is unified within the IntelliJ settings UI. Go to `Settings -> Languages & Frameworks -> Karate` and you should see something like this.
@@ -132,6 +134,20 @@ You can collapse sections to make it easier to deal with long tests.
 You can click to navigate to called files. Or hover to see context. Currently this is supported for the `read()` and `Java.type()` syntax. More coming soon, including auto-complete.
 
 <img src="resources/reference-java.jpg" height="250px"/>
+
+# JSON Re-formatting
+
+Place the cursor within JSON to see options to re-format it, you will see a "bulb" icon.
+
+<img src="resources/json-bulb.jpg" height="200px"/>
+
+The following options are possible (depending on context):
+
+* Lenient - just like JS, where single-quotes are used and no quotes are needed for property keys
+* Strict - Strict JSON, using double-quotes
+* Make single Line - convert multi-line JSON to a single line
+* Make multi-line - convert a single line of JSON to multi-line, including triple-quotes
+
 
 # Run Folder
 
