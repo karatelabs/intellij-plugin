@@ -7,7 +7,7 @@
             <h2>IntelliJ Plugin</h2>           
         </td>
         <th>
-            <h3><a href="https://youtu.be/dhIigSSt_wg">:tv: <br/>&nbsp;&nbsp;&nbsp;Video&nbsp;&nbsp;&nbsp;</a></h3>
+            <h3><a href="https://youtu.be/lytWyv0ifLk?si=7aKK6WOxVLGKjRh8">:tv: <br/>&nbsp;&nbsp;&nbsp;Video&nbsp;&nbsp;&nbsp;</a></h3>
         </th>        
         <th>
             <h3><a href="https://www.karatelabs.io/pricing">:heavy_dollar_sign: <br/>&nbsp;&nbsp;Pricing&nbsp;&nbsp;</a></h3>
