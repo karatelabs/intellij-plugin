@@ -75,6 +75,8 @@ License activation and status is unified within the IntelliJ settings UI. Go to 
 
 <img src="resources/sign-in.jpg" height="300px"/>
 
+<p>&nbsp;</p>
+
 Click the `Sign In` link and you will be taken through the usual flow linked to your existing subscription details.
 
 Once you have authenticated successfully, copy the session ID from the browser and paste it into the input-box now showing in the IntelliJ settings view. Click `Apply` to complete the sign-in.
@@ -90,19 +92,21 @@ You can also run a single `Scenario` by right-clicking on it or using the "gutte
 
 <img src="resources/run-scenario.jpg" height="300px"/>
 
+<p>&nbsp;</p>
+
 You can even run a single "example" in a `Scenario Outline` by right-clicking on one of the data-rows within an `Examples` table.
 
 <img src="resources/run-example.jpg" height="250px"/>
 
 ## Run Configurations
-IntelliJ [run-configurations](https://www.jetbrains.com/help/idea/run-debug-configuration.html) are useful for being able to re-run tests with specific parameters. All the typical Karate options you need are supported, including control over the JVM parameters.
+IntelliJ [run-configurations](https://www.jetbrains.com/help/idea/run-debug-configuration.html) are useful for being able to re-run tests with specific parameters. All the typical Karate options you need are supported, including control over the JVM parameters and working directory.
 
-<img src="resources/run-config.jpg" height="300px"/>
+<img src="resources/run-config.jpg" height="450px"/>
 
 ## Structure View
 The IntelliJ [structure view](https://www.jetbrains.com/help/idea/viewing-structure-of-a-source-file.html) is supported so you can navigate large files with ease.
 
-<img src="resources/structure.jpg" height="300px"/>
+<img src="resources/structure.jpg" height="450px"/>
 
 ## Code Formatting
 Intellij [code-formatting](https://www.jetbrains.com/help/idea/reformat-and-rearrange-code.html) shortcuts work and even JSON within doc-string blocks will be formatted correctly.
@@ -113,6 +117,12 @@ Intellij [code-formatting](https://www.jetbrains.com/help/idea/reformat-and-rear
 Test results integrate into the IntelliJ test-results view. The HTML report is one-click away.
 
 <img src="resources/test-results.jpg" height="300px"/>
+
+<p>&nbsp;</p>
+
+When there are test errors - you can navigate directly to the feature file and line that failed by clicking on hyperlinks in the log.
+
+<img src="resources/test-error-link.jpg" height="300px"/>
 
 ## Auto Complete
 Besides the syntax validation, you have auto-complete for the most commonly used keywords.
@@ -133,6 +143,8 @@ You can click to navigate to called files. Or hover to see context. Currently th
 Place the cursor within JSON to see options to re-format it, you will see a "bulb" icon.
 
 <img src="resources/json-bulb.jpg" height="200px"/>
+
+<p>&nbsp;</p>
 
 The following options are possible (depending on context):
 
