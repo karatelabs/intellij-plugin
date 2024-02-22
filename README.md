@@ -4,7 +4,7 @@
             <br/><a href="https://karatelabs.io"><img src="resources/karate-logo.svg" style="height:45px"/></a>
         </td>
         <td>
-            <h2>Karate IntelliJ Plugin</h2>           
+            <h2>IntelliJ Plugin</h2>           
         </td>
         <th>
             <h3><a href="https://youtu.be/dhIigSSt_wg">:tv: <br/>&nbsp;&nbsp;&nbsp;Video&nbsp;&nbsp;&nbsp;</a></h3>
