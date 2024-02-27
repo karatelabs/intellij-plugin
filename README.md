@@ -33,8 +33,8 @@
                 <li>Syntax coloring</li>                
                 <li>Run Feature from editor</li>
                 <li><a href="#run-from-editor">Run single Scenario / Example</a></li>
-                <li><a href="#run-configurations">Run / Launch Configurations</a></li>
-                <li><a href="#structure-view">Structure / Outline view</a></li>
+                <li><a href="#run-configurations">Run Configurations</a></li>
+                <li><a href="#structure-view">Structure view</a></li>
                 <li><a href="#code-formatting">Code formatting</a></li>
                 <li><a href="#test-results">In-IDE test results</a></li>
             </ul>
