@@ -1,19 +1,19 @@
 <table>
     <tr>
         <td>
-            <br/><a href="https://karatelabs.io"><img src="resources/karate-logo.svg" style="height:45px"/></a>
+            <br/><a href="https://karatelabs.io"><img src="resources/karate-logo.svg" height="45px"/></a>
         </td>
         <td>
             <h2>IntelliJ Plugin</h2>           
         </td>
         <th>
-            <h3><a href="https://youtu.be/lytWyv0ifLk?si=7aKK6WOxVLGKjRh8">:tv: <br/>&nbsp;&nbsp;&nbsp;Video&nbsp;&nbsp;&nbsp;</a></h3>
+            <h3><a href="https://youtu.be/lytWyv0ifLk?si=7aKK6WOxVLGKjRh8">:tv: <br/>&nbsp;&nbsp;Video&nbsp;&nbsp;</a></h3>
         </th>        
         <th>
             <h3><a href="https://www.karatelabs.io/pricing">:heavy_dollar_sign: <br/>&nbsp;&nbsp;Pricing&nbsp;&nbsp;</a></h3>
         </th>       
         <th>
-            <h3><a href="https://plugins.jetbrains.com/plugin/19232-karate">:zap: <br/> Download</a></h3>
+            <h3><a href="https://plugins.jetbrains.com/plugin/19232-karate">:zap: <br/>&nbsp;Market&nbsp;<br/>place</a></h3>
         </th>
         <th>
             <h3><a href="https://github.com/karatelabs/intellij-plugin/issues">:octocat: <br/>&nbsp;&nbsp;&nbsp;Issues&nbsp;&nbsp;&nbsp;</a></h3>
