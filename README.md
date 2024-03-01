@@ -16,7 +16,7 @@
             <h3><a href="https://plugins.jetbrains.com/plugin/19232-karate">:zap: <br/>&nbsp;Market&nbsp;<br/>place</a></h3>
         </th>
         <th>
-            <h3><a href="https://github.com/karatelabs/intellij-plugin/issues">:octocat: <br/>&nbsp;&nbsp;&nbsp;Issues&nbsp;&nbsp;&nbsp;</a></h3>
+            <h3><a href="https://github.com/karatelabs/intellij-plugin/issues">:octocat: <br/>&nbsp;&nbsp;Issues&nbsp;&nbsp;</a></h3>
         </th>        
     </tr>
 </table>
