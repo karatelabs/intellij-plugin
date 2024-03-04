@@ -59,7 +59,7 @@
             <ul>
                 <li>Priority support</li>
                 <li>SSO / SAML support</li>
-                <li>Offline license</li>
+                <li><a href="#offline-license">Offline license</a></li>
                 <li><a href="https://www.karatelabs.io/contact-us">Contact us</a></li>
             </ul>        
         </td>        
@@ -174,3 +174,16 @@ A Karate debug session will even stop at Java breakpoints.
 
 You can also start a normal Java debug session that uses the Karate `Runner` Java API but still stop at Karate breakpoints. This requires you to be using Karate version 1.5.0.RC3 or greater.
 
+## Offline License
+
+On the [License Activation](#license-activation) settings page, you should see a link called `Offline License`. When you click it you should see something like this.
+
+<img src="resources/offline-license.jpg" height="200px"/>
+
+A unique code for your system will be shown which you can cut and paste. In the example above, it is: `DhHOFKHvd7XYTi+rQnNTJQ==`
+
+Send that unique code to [Karate Labs](https://karatelabs.io/contact-us) or your enterprise admin. You will be issued a license that is tied to this unique code. To apply the license, copy all the text from the license file (which should start with: `-----BEGIN LICENSE FILE-----`) and paste it into the text-area provided. Now you should see something like this.
+
+<img src="resources/offline-license-paste.jpg" height="500px"/>
+
+Click [Apply] and you should a confirmation message and your license details.
