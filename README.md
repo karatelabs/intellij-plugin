@@ -83,7 +83,7 @@ Once you have authenticated successfully, copy the session ID from the browser a
 
 Once signed-in you can work offline. You can always open this settings page to see how many days are left in your session.
 
-If you need an offline license because of strict security or other restrictions in your environment, please [contact us](https://www.karatelabs.io/contact-us).
+If you need an [offline license](#offline-license) because of strict security or other restrictions in your environment, please [contact us](https://www.karatelabs.io/contact-us).
 
 ## Run From Editor
 You can right-click a `*.feature` file in the explorer or within the editor and run it. An IntelliJ [run-configuration](#run-configurations) will be created which you can customize later if needed.
