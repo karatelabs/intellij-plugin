@@ -83,7 +83,7 @@ Once you have authenticated successfully, copy the session ID from the browser a
 
 Once signed-in you can work offline. You can always open this settings page to see how many days are left in your session.
 
-If you need an [offline license](#offline-license) because of strict security or other restrictions in your environment, please [contact us](https://www.karatelabs.io/contact-us).
+If you need an [offline license](#offline-license) because of strict security or other restrictions in your environment, please [contact us](https://www.karatelabs.io/contact-us). Please note that this is only for existing customers.
 
 ## Run From Editor
 You can right-click a `*.feature` file in the explorer or within the editor and run it. An IntelliJ [run-configuration](#run-configurations) will be created which you can customize later if needed.
@@ -182,7 +182,10 @@ On the [License Activation](#license-activation) settings page, you should see a
 
 A unique code for your system will be shown which you can cut and paste. In the example above, it is: `DhHOFKHvd7XYTi+rQnNTJQ==`
 
-Send that unique code to [Karate Labs](https://karatelabs.io/contact-us) or your enterprise admin. You will be issued a license that is tied to this unique code. To apply the license, copy all the text from the license file (which should start with: `-----BEGIN LICENSE FILE-----`) and paste it into the text-area provided. Now you should see something like this.
+> [!IMPORTANT]  
+> The Offline License is a [paid feature for enterprises](https://www.karatelabs.io/pricing). Please make sure you know who your designated admin is before you perform this step.
+
+Send that unique code to your designated admin. You will be issued a license that is tied to this unique code. To apply the license, copy all the text from the license file (which should start with: `-----BEGIN LICENSE FILE-----`) and paste it into the text-area provided. Now you should see something like this.
 
 <img src="resources/offline-license-paste.jpg" height="500px"/>
 
