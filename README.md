@@ -110,8 +110,6 @@ To make sure that the Karate plugin can run `*.feature` files, you can go to `Se
 
 <img src="resources/file-types.jpg" height="250px"/>
 
-<p>&nbsp;</p>
-
 If you really need to mix Cucumber tests and Karate tests in the same workspace, refer to [this post on Stack Overflow](https://stackoverflow.com/a/76462277/143475).
 
 ## Run Configurations
