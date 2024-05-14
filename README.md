@@ -98,6 +98,22 @@ You can even run a single "example" in a `Scenario Outline` by right-clicking on
 
 <img src="resources/run-example.jpg" height="250px"/>
 
+## Troubleshooting
+
+If you don't see the options to run a test (described above) make sure that the Karate icon shows for open `*.feature` files in the editor and in the project-explorer. If the "Cucumber for Java" plugin is installed, it can conflict with Karate.
+
+<img src="resources/file-icon.jpg" height="250px"/>
+
+<p>&nbsp;</p>
+
+To make sure that the Karate plugin can run `*.feature` files, you can go to `Settings -> Editor -> File Types -> Recognized File Types`.
+
+If you really need to mix Cucumber tests and Karate tests in the same workspace, refer to [this post on Stack Overflow](https://stackoverflow.com/a/76462277/143475).
+
+<img src="resources/file-types.jpg" height="250px"/>
+
+<p>&nbsp;</p>
+
 ## Run Configurations
 IntelliJ [run-configurations](https://www.jetbrains.com/help/idea/run-debug-configuration.html) are useful for being able to re-run tests with specific parameters. All the typical Karate options you need are supported, including control over the JVM parameters and working directory.
 
