@@ -25,7 +25,7 @@
     <tr>
         <th>PLUS</th>
         <th>PRO</th>
-        <th>ULTIMATE<th>
+        <th>ULTIMATE</th>
         <th>Enterprise</th>
     </tr>    
     <tr>
@@ -55,7 +55,7 @@
                 <li>cURL import *</li>
                 <li>OpenAPI support *</li>
             </ul>
-            <i>&nbsp;&nbsp;&nbsp;&nbsp;[*] coming soon</i>
+            <i>&nbsp;&nbsp;&nbsp;&nbsp;[*] coming soon</i>            
         </td>
         <td>
             <i>&nbsp;&nbsp;&nbsp;&nbsp;(includes all in PRO)</i>
