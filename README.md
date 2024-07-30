@@ -25,6 +25,7 @@
     <tr>
         <th>PLUS</th>
         <th>PRO</th>
+        <th>ULTIMATE<th>
         <th>Enterprise</th>
     </tr>    
     <tr>
@@ -53,7 +54,19 @@
                 <li>Java debug session stops at Karate breakpoints</li>
                 <li>cURL import *</li>
                 <li>OpenAPI support *</li>
-            </ul><i>&nbsp;&nbsp;&nbsp;&nbsp;[*] coming soon</i>
+            </ul>
+            <i>&nbsp;&nbsp;&nbsp;&nbsp;[*] coming soon</i>
+        </td>
+        <td>
+            <i>&nbsp;&nbsp;&nbsp;&nbsp;(includes all in PRO)</i>
+            <ul>
+                <li><a href="#openapi-import">Import OpenAPI (or Swagger) definitions</a></li>
+                <li><a href="#create-tests-from-spec">Convert API specifications to Karate tests</a></li>
+                <li><a href="#spec-payload-chooser">Choose payload sub-sets from spec schemas</a></li>
+                <li><a href="#spec-explorer">Explore API directly from OpenAPI or Swagger specs</a></li>
+                <li><a href="#create-mock-from-spec">Convert API specifications to Karate mocks</a></li>
+                <li><a href="#spec-impact-analysis">Impact analyis of API changes</a></li>
+            </ul>
         </td>
         <td>
             <ul>
@@ -167,7 +180,6 @@ The following options are possible (depending on context):
 * Make single Line - convert multi-line JSON to a single line
 * Make multi-line - convert a single line of JSON to multi-line, including triple-quotes
 
-
 ## Run Folder
 
 As a convenience, you can right-click and run a folder from the explorer view.
@@ -204,3 +216,59 @@ Send that unique code to your designated admin. You will be issued a license tha
 <img src="resources/offline-license-paste.jpg" height="500px"/>
 
 Click [Apply] and you should a confirmation message and your license details.
+
+## OpenAPI Import
+
+Right-clicking on any file in the Project Explorer brings up a menu called `Karate Import` as shown below. OpenAPI or Swagger files of any version are supported.
+
+<img src="resources/spec-import.jpg" height="300px"/>
+
+When successful, you will see a Karate tool-window typically on the top-right of your IntelliJ layout, shown below. You can exand to the level of HTTP methods per API path such as `GET`, `POST` etc.
+
+When you click on an HTTP method, you can preview the equivalent Karate snippet.
+
+<img src="resources/spec-tool-window.jpg" height="450px"/>
+
+## Create Tests From Spec
+
+Creating a Karate test from an Open API or Swagger file is much quicker now. Just click and drag from the tree into the editor window. 
+
+<img src="resources/spec-to-test.gif" height="450px"/>
+
+This way you have full control over the sequence of API calls you make within a Karate test.
+
+## Spec Payload Chooser
+
+A challenge with complex APIs is that the schemas include all possible variations and permutations even though only some fields are commonly used. To solve this problem, you can right-click on an HTTP method in the tree. This gives you a menu to view the Request or Response when available.
+
+<img src="resources/spec-method-payload.jpg" height="300px"/>
+
+This brings up a dialog where you can un-select the JSON keys you need. It is very easy to choose payload sub-sets using this UI.
+
+<img src="resources/spec-select-json.gif" height="500px" width="600"/>
+
+Once satisfied you can cut and paste into a test or wherever you need the payload.
+
+## Spec Explorer
+
+Coming soon.
+
+## Create Mock From Spec
+
+You can export all data within an imported schema into a plain-vanilla JS file that can be used as a Karate mock. A detailed explanation and sample can be found at this GitHub project: [karate-oas-demo](https://github.com/ptrthomas/karate-oas-demo).
+
+Use the `Save Mock` button at the bottom of the tool-window.
+
+## Spec Impact Analysis
+
+You can also export a plain-vanilla JS file that dumps all API and schema information in a format designed to make impact analysis easier using your existing IDE diff features. The format is designed to flatten all metdata into single lines in a text file.
+
+Once you have exported this file, you can compare two of these using the IntelliJ `Compare With` menu and view the diff in an intuitive manner.
+
+<img src="resources/spec-diff.jpg" height="400px"/>
+
+You can scroll-right and view the differences even for very large API schemas.
+
+### Test Impact Analysis
+
+Coming soon - the capability to show which tests and mocks are impacted due to changes in the API spec.
