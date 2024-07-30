@@ -63,7 +63,7 @@
                 <li><a href="#openapi-import">Import OpenAPI (or Swagger) definitions</a></li>
                 <li><a href="#create-tests-from-spec">Convert API specifications to Karate tests</a></li>
                 <li><a href="#spec-payload-chooser">Choose payload sub-sets from spec schemas</a></li>
-                <li><a href="#spec-explorer">Explore API directly from OpenAPI or Swagger specs</a></li>
+                <li><a href="#explore-api-from-spec">Explore API directly from OpenAPI or Swagger specs</a></li>
                 <li><a href="#create-mock-from-spec">Convert API specifications to Karate mocks</a></li>
                 <li><a href="#spec-impact-analysis">Impact analyis of API changes</a></li>
             </ul>
@@ -249,7 +249,7 @@ This brings up a dialog where you can un-select the JSON keys you need. It is ve
 
 Once satisfied you can cut and paste into a test or wherever you need the payload.
 
-## Spec Explorer
+## Explore API From Spec
 
 Coming soon.
 
