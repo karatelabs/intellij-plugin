@@ -198,7 +198,20 @@ A Karate debug session will even stop at Java breakpoints.
 
 ### Debug Karate from Java
 
-You can also start a normal Java debug session that uses the Karate `Runner` Java API but still stop at Karate breakpoints. This requires you to be using Karate version 1.5.0.RC3 or greater.
+You can also start a normal Java debug session that uses the [Karate `Runner` Java API](https://github.com/karatelabs/karate#junit-5-parallel-execution) but still stop at Karate breakpoints. This requires you to be using Karate version 1.5.0 or greater. The two things to note are:
+
+* You have to use the Karate `Runner` Java API like in [this example](https://github.com/karatelabs/karate-todo/blob/main/src/test/java/app/api/ApiTest.java).
+* You have to use an IntelliJ Java or [JUnit](https://www.jetbrains.com/help/idea/run-debug-configuration-junit.html) Run Configuration but in `Debug` mode. Right-clicking on a JUnit class (or method) or a Java class with a `main` method is normally [how you create one](https://www.jetbrains.com/help/idea/run-debug-configuration.html).
+
+### Debug Gradle Projects
+
+If you have a Gradle project, the Run Configuration that IntelliJ creates may default to a Gradle specific one and not the IntelliJ native Java Run Configuration needed to honor breakpoints in Karate feature files. The default is easy to change by going to `Settings > Build, Execution, Deployment > Build Tools > Gradle > Build and run`. Set the `Run tests using` option to `Choose per test` as shown below.
+
+<img src="https://github.com/user-attachments/assets/3770fdf9-199f-4157-b6b6-a982709056b4" height="500"/>
+
+Now you will have the option to choose the Java Run Configuration instead of the Gradle one.
+
+<img src="https://github.com/user-attachments/assets/bb9b750c-6c54-4637-8516-bc2b9165e398" height="150"/>
 
 ## Offline License
 
