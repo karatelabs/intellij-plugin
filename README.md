@@ -208,7 +208,7 @@ If you have a Gradle project, the Run Configuration that IntelliJ creates may de
 
 <img src="https://github.com/user-attachments/assets/3770fdf9-199f-4157-b6b6-a982709056b4" height="500"/>
 
-Now you will have the option to choose the Java Run Configuration instead of the Gradle one.
+Now when right-clicking on a JUnit test or Java class, you will have the option to choose the Java Run Configuration instead of the Gradle one.
 
 <img src="https://github.com/user-attachments/assets/bb9b750c-6c54-4637-8516-bc2b9165e398" height="150"/>
 
