@@ -51,11 +51,8 @@
                 <li>Run Karate Labs add-ons (e.g. <a href="https://github.com/karatelabs/karate-addons/blob/main/karate-kafka/README.md">Kafka</a>)</li>
                 <li><a href="#debug">Debug Karate test</a></li>
                 <li>Debug Java &amp; Karate in same session</li>
-                <li>Java debug session stops at Karate breakpoints</li>
-                <li>cURL import *</li>
-                <li>OpenAPI support *</li>
-            </ul>
-            <i>&nbsp;&nbsp;&nbsp;&nbsp;[*] coming soon</i>            
+                <li><a href="#debug-karate-from-java">Java debug session stops at Karate breakpoints</a></li>
+            </ul>        
         </td>
         <td>
             <i>&nbsp;&nbsp;&nbsp;&nbsp;(includes all in PRO)</i>
