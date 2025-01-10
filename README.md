@@ -95,6 +95,19 @@ Once signed-in you can work offline. You can always open this settings page to s
 
 If you need an [offline license](#offline-license) because of strict security or similar restrictions in your environment, please [contact us](https://www.karatelabs.io/contact-us). Please note that this option is available only for enterprise customers of Karate Labs.
 
+### Session Renewal
+Once you have signed-in once, you can renew or extend the session in just one-click without having to authenticate via a browser. 
+
+Use the `Renew Session` button as shown below. If you have a valid subscription, this will work even if your session has expired.
+
+<img src="resources/renew.jpg" height="150px"/>
+
+<p>&nbsp;</p>
+
+For convenience, you will see a notification when there are 10 or less days for your session to expire.
+
+<img src="resources/renew-notification.jpg" height="100px"/>
+
 ## Run From Editor
 You can right-click a `*.feature` file in the explorer or within the editor and run it. An IntelliJ [run-configuration](#run-configurations) will be created which you can customize later if needed.
 
