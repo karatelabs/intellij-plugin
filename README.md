@@ -104,7 +104,9 @@ Use the `Renew Session` button as shown below. If you have a valid subscription,
 
 <p>&nbsp;</p>
 
-For convenience, you will see a notification when there are 10 or less days for your session to expire.
+For convenience, when using the Karate plugin, you will see a notification when there are 10 or less days for your session to expire.
+
+If you click the `Renew Now` link, you will be taken directly to the Karate Settings screen where you can do the renewal in one-click.
 
 <img src="resources/renew-notification.jpg" height="100px"/>
 
